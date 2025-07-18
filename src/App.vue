@@ -14,7 +14,7 @@ const unit = ref('%');
       <InputStepper
         v-model:value="value"
         v-model:unit="unit"
-        :unitOptions="['px', '%']"
+        :unitOptions="['%', 'px']"
         :min="0"
         :max="10000"
       />
