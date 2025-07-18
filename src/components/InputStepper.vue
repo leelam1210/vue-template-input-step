@@ -110,7 +110,7 @@ const props = withDefaults(defineProps<{
   min: 0
 });
 
-const displayValue = ref(props.value.toString());
+const displayValue = ref(props.value?.toString());
 const inputFocused = ref(false);
 const inputHovered = ref(false);
 const hoverMinus = ref(false);
